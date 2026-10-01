@@ -1,7 +1,3 @@
-/* Assignment 2 - Advanced CSS (Flexbox & Grid) */
-/* Student: Write your full name */
-/* Group: Write your group */
-
 html {
   height: 100%;
 }
@@ -23,7 +19,7 @@ body {
   background-attachment: fixed;
 }
 
-/* ===== Task 0: Navigation Bar (Flexbox) ===== */
+/* Navigation Bar */
 
 header {
   display: flex;
@@ -64,7 +60,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* ===== Page content wrapper ===== */
+/*Page content wrapper*/
 
 main {
   flex-grow: 1;
@@ -118,7 +114,7 @@ footer {
   color: #f4f0e6;
 }
 
-/* ===== Task 1: Card Row (Flexbox) ===== */
+/*  Task 1: Card Row (Flexbox) */
 
 .card-container {
   display: flex;
@@ -160,7 +156,7 @@ footer {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== Task 2: Page Layout (Grid) ===== */
+/* Task 2: Page Layout (Grid)  */
 
 .grid-layout {
   display: grid;
@@ -226,7 +222,7 @@ footer {
   text-align: center;
 }
 
-/* ===== Task 3: Image Gallery (Grid) ===== */
+/* Task 3: Image Gallery (Grid)  */
 
 .gallery {
   display: grid;
@@ -264,7 +260,7 @@ footer {
   display: block;
 }
 
-/* ===== Task 4: Portfolio Page (Flexbox + Grid) ===== */
+/* Task 4: Portfolio Page (Flexbox + Grid)  */
 
 .portfolio-layout {
   display: grid;
